@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" role="img" aria-labelledby="roastTitle">
+  <title id="roastTitle">用心烘焙</title>
+  <defs>
+    <linearGradient id="roastBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F0"/>
+      <stop offset="100%" stop-color="#EFE6DA"/>
+    </linearGradient>
+    <radialGradient id="heatGlow" cx="50%" cy="65%" r="50%">
+      <stop offset="0%" stop-color="#E28743" stop-opacity="0.35"/>
+      <stop offset="70%" stop-color="#E28743" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#E28743" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="300" rx="14" fill="url(#roastBg)"/>
+
+  <!-- Warm ambient circle -->
+  <circle cx="200" cy="160" r="90" fill="url(#heatGlow)"/>
+
+  <!-- Roasting drum motif / circular artisan frame -->
+  <circle cx="200" cy="150" r="75" fill="none" stroke="#D8C7B0" stroke-width="2" stroke-dasharray="6 4"/>
+  <circle cx="200" cy="150" r="62" fill="#4A2E1B"/>
+
+  <!-- Center roasting bean with thermal curves -->
+  <g transform="translate(200, 150) rotate(-15)" fill="#2C1A0E">
+    <ellipse cx="0" cy="0" rx="34" ry="22"/>
+    <path d="M -26 0 Q 0 9, 26 0" stroke="#F4EFEB" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Flame / Heat representation underneath -->
+  <path d="M 175 235 C 185 210, 195 215, 200 205 C 205 215, 215 210, 225 235 Q 200 245, 175 235 Z" fill="#BF573F" opacity="0.85"/>
+  <path d="M 188 236 C 194 220, 200 222, 200 216 C 202 222, 208 220, 212 236 Z" fill="#EFA94A" opacity="0.9"/>
+
+  <!-- Aroma & Roast curves -->
+  <g stroke="#8C664C" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.65">
+    <path d="M 160 100 C 150 75, 170 65, 160 45"/>
+    <path d="M 200 85 C 205 60, 195 50, 200 35"/>
+    <path d="M 240 100 C 250 75, 230 65, 240 45"/>
+  </g>
+
+  <!-- Green leaf accent on top left -->
+  <path d="M 100 85 C 80 65, 95 45, 115 60 C 120 75, 110 90, 100 85 Z" fill="#1F392B" opacity="0.85"/>
+</svg>

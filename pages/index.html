@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>晴天咖啡 | 一杯咖啡，留一點時間給自己</title>
+  <meta name="description" content="晴天咖啡 — 神秘、自然、簡潔的慢活咖啡空間。精選產區咖啡豆、用心微批次烘焙，在熟悉的香氣裡，找到自己的生活節奏。">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+</head>
+<body>
+  <!-- 頂部共用導覽列 -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-link" aria-label="晴天咖啡 首頁">
+        <svg class="brand-icon" viewBox="0 0 32 32" aria-hidden="true">
+          <!-- 簡約咖啡豆與自然葉片標誌 -->
+          <path d="M16 3C11 3 6 8 6 15C6 21 11 27 16 28C21 28 26 23 26 16C26 9 21 3 16 3ZM16 7C19.5 7 22.5 10.5 22.8 15C20.5 15.5 17 18 15 22C11.5 21 9.5 18 9.2 15C11.5 14.5 15 12 16 7Z"/>
+        </svg>
+        <div class="brand-title-wrap">
+          <span class="brand-name">晴天咖啡</span>
+          <span class="brand-en">Sunny Cafe</span>
+        </div>
+      </a>
+
+      <!-- 手機版漢堡切換按鈕 -->
+      <button class="nav-toggle" type="button" aria-label="切換導覽選單" aria-expanded="false" aria-controls="primary-nav">
+        <span class="hamburger-line"></span>
+      </button>
+
+      <!-- 主要導覽項目 -->
+      <nav id="primary-nav" class="primary-nav" aria-label="主要導覽">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link active" aria-current="page">首頁</a></li>
+          <li><a href="about.html" class="nav-link">關於我們</a></li>
+          <li><a href="contact.html" class="nav-link">聯絡我們</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- 手機版選單開啟時的遮罩 -->
+  <div class="nav-backdrop" aria-hidden="true"></div>
+
+  <!-- 主要內容區 -->
+  <main class="main-content">
+    <!-- 主視覺區塊 (Hero Section) -->
+    <section class="hero-section" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hero-badge">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span>自然・簡潔・慢活咖啡</span>
+            </div>
+            <h1 id="hero-title" class="hero-title">一杯咖啡，<br>留一點時間給自己。</h1>
+            <p class="hero-desc">在熟悉的香氣裡，找到自己的生活節奏。晴天咖啡融合自然採光與木質溫潤氣息，為每位追求質感的你，沖煮一杯純粹的好滋味。</p>
+            <div class="hero-actions">
+              <a href="about.html" class="btn btn-primary">認識我們</a>
+              <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-visual-card">
+              <img src="assets/images/hero-coffee.svg" alt="晴天咖啡 手沖咖啡、日光與自然綠葉意象" width="600" height="480">
+              <div class="hero-visual-caption">
+                <span>經典手沖配方</span>
+                <strong>讓咖啡，陪你慢下來。</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 品牌簡介區塊 -->
+    <section class="section" aria-labelledby="intro-heading">
+      <div class="container">
+        <div class="brand-intro-box">
+          <span class="section-tag">BRAND PHILOSOPHY</span>
+          <h2 id="intro-heading" class="section-title">隱於城市的純粹香氣</h2>
+          <p class="brand-intro-quote">「讓咖啡，陪你慢下來。」</p>
+          <p class="brand-intro-text">
+            晴天咖啡創立於對自然與生活的沉靜體悟。我們相信，咖啡不只是清晨的提神飲品，更是忙碌步調裡的一處喘息之地。在木質暖調與綠意圍繞的空間中，我們以嚴選生豆與微批次烘焙工藝，為你保留咖啡豆最原始的天然花果芳香。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 三大特色區塊 -->
+    <section class="section section-subtle" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">OUR FEATURES</span>
+          <h2 id="features-heading" class="section-title">我們的堅持與特色</h2>
+          <p class="section-desc">從產地生豆的挑選、烘焙溫度的微調，到每一張桌椅的空間留白，皆傾注了對品質的執著。</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- 特色一：精選咖啡豆 -->
+          <article class="card feature-card">
+            <div class="feature-img-wrap">
+              <img src="assets/images/feature-beans.svg" alt="精選咖啡豆與自然果實插畫" width="400" height="300">
+            </div>
+            <h3 class="feature-title">精選咖啡豆</h3>
+            <p class="feature-text">嚴選世界高海拔產區單品莊園生豆，堅持產地透明溯源，帶來乾淨、層次豐富的花果清甜與可可尾韻。</p>
+          </article>
+
+          <!-- 特色二：用心烘焙 -->
+          <article class="card feature-card">
+            <div class="feature-img-wrap">
+              <img src="assets/images/feature-roast.svg" alt="微批次手作烘焙與香氣線條插畫" width="400" height="300">
+            </div>
+            <h3 class="feature-title">用心烘焙</h3>
+            <p class="feature-text">採取小量微批次烘焙，精準掌握烘焙曲線與脫水火候，激發每顆咖啡豆最純粹的天然甜感與柔和酸香。</p>
+          </article>
+
+          <!-- 特色三：自在空間 -->
+          <article class="card feature-card">
+            <div class="feature-img-wrap">
+              <img src="assets/images/feature-space.svg" alt="溫潤木質桌椅與綠意植栽空間插畫" width="400" height="300">
+            </div>
+            <h3 class="feature-title">自在空間</h3>
+            <p class="feature-text">結合溫暖的原木質地、自然採光與療癒植栽，打造不被打擾的寧靜場域，陪伴你專注閱讀或放空休憩。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 頁尾共用區塊 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-brand-title">晴天咖啡 Sunny Cafe</div>
+          <p class="footer-slogan">讓咖啡，陪你慢下來。</p>
+          <p class="footer-desc">在城市的喧囂之中，為你保留一處微光灑落的靜謐角落。嚴選產區咖啡豆與小量用心烘焙，陪伴你的日常片刻。</p>
+        </div>
+
+        <div class="footer-nav">
+          <h2 class="footer-nav-title">網站導覽</h2>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link active">首頁 (Home)</a></li>
+            <li><a href="about.html" class="footer-link">關於我們 (About Us)</a></li>
+            <li><a href="contact.html" class="footer-link">聯絡我們 (Contact)</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">&copy; 2026 晴天咖啡 版權所有 / All Rights Reserved.</p>
+        <span class="footer-spec-badge">風格方向：神秘・自然・簡潔</span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

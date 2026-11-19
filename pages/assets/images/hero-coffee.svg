@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 480" width="100%" height="100%" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">晴天咖啡 手沖咖啡與自然氛圍</title>
+  <desc id="heroDesc">溫暖陽光、咖啡杯與手繪植物意象，展現神秘自然的生活步調</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F7F3EB"/>
+      <stop offset="100%" stop-color="#EBE3D5"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="65%" cy="35%" r="45%">
+      <stop offset="0%" stop-color="#EFE4CF" stop-opacity="0.8"/>
+      <stop offset="60%" stop-color="#E2D4BC" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#E2D4BC" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cupGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4A2E1B"/>
+      <stop offset="100%" stop-color="#2D1A0E"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="600" height="480" rx="20" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Sunlight Halo (晴天意象) -->
+  <circle cx="390" cy="180" r="160" fill="url(#sunGlow)"/>
+  <circle cx="390" cy="180" r="120" fill="none" stroke="#D3C3A8" stroke-width="1.5" stroke-dasharray="4 6" opacity="0.6"/>
+
+  <!-- Botanical Branch (Natural forest green accent) -->
+  <g stroke="#1F392B" stroke-width="2" fill="none" stroke-linecap="round">
+    <path d="M 120 400 C 135 320, 160 250, 190 190 C 210 150, 230 110, 260 80" opacity="0.85"/>
+  </g>
+  <g fill="#1F392B" opacity="0.85">
+    <path d="M 155 295 C 135 290, 125 305, 138 318 C 150 330, 165 315, 155 295 Z"/>
+    <path d="M 160 260 C 180 255, 188 270, 178 283 C 168 293, 150 280, 160 260 Z"/>
+    <path d="M 185 220 C 165 210, 160 230, 170 240 C 180 250, 195 235, 185 220 Z"/>
+    <path d="M 210 170 C 230 160, 240 175, 230 190 C 220 200, 202 188, 210 170 Z"/>
+    <path d="M 235 130 C 220 115, 210 135, 222 148 C 232 158, 248 145, 235 130 Z"/>
+    <path d="M 260 80 C 275 75, 280 90, 270 102 C 260 112, 248 98, 260 80 Z"/>
+  </g>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="380" cy="370" rx="130" ry="18" fill="#D3C5B2" opacity="0.6"/>
+
+  <!-- Coffee Saucer -->
+  <ellipse cx="380" cy="355" rx="110" ry="16" fill="#C9BBA5"/>
+  <ellipse cx="380" cy="353" rx="104" ry="13" fill="#FAF6EE"/>
+
+  <!-- Coffee Cup Base & Body -->
+  <path d="M 310 270 Q 310 345, 380 345 Q 450 345, 450 270 Z" fill="url(#cupGrad)"/>
+  
+  <!-- Cup Rim -->
+  <ellipse cx="380" cy="270" rx="70" ry="14" fill="#3D2415"/>
+  <!-- Liquid Coffee Surface -->
+  <ellipse cx="380" cy="272" rx="64" ry="11" fill="#201107"/>
+  <ellipse cx="375" cy="273" rx="55" ry="8" fill="#58351D" opacity="0.85"/>
+  <!-- Latte Art or Coffee crema ring -->
+  <path d="M 360 273 C 375 277, 385 277, 395 273" stroke="#D7A97A" stroke-width="2" fill="none" opacity="0.75" stroke-linecap="round"/>
+
+  <!-- Cup Handle -->
+  <path d="M 440 282 C 480 284, 480 326, 436 332" fill="none" stroke="#3D2415" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Aroma & Steam (Mysterious & serene swirls) -->
+  <g stroke="#9E836A" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.55">
+    <path d="M 360 245 C 350 220, 365 200, 355 175 C 348 155, 355 140, 350 120"/>
+    <path d="M 385 240 C 395 210, 380 190, 390 160 C 398 140, 388 120, 395 100"/>
+    <path d="M 405 245 C 418 225, 410 205, 420 185"/>
+  </g>
+
+  <!-- Small Coffee Beans on the Table -->
+  <g fill="#4A2E1B">
+    <g transform="translate(250, 360) rotate(-25)">
+      <ellipse cx="0" cy="0" rx="10" ry="7"/>
+      <path d="M -8 0 Q 0 4, 8 0" stroke="#F5EFEB" stroke-width="1.2" fill="none"/>
+    </g>
+    <g transform="translate(275, 372) rotate(35)">
+      <ellipse cx="0" cy="0" rx="9" ry="6"/>
+      <path d="M -7 0 Q 0 -3, 7 0" stroke="#F5EFEB" stroke-width="1.2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Subtle geometric accent -->
+  <circle cx="510" cy="90" r="3" fill="#1F392B" opacity="0.5"/>
+  <circle cx="525" cy="105" r="2" fill="#1F392B" opacity="0.3"/>
+</svg>

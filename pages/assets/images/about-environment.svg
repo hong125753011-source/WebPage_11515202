@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" role="img" aria-labelledby="envTitle envDesc">
+  <title id="envTitle">晴天咖啡 店內環境與休憩空間</title>
+  <desc id="envDesc">大面落地採光、木質溫潤長桌與綠意盆栽，營造自在舒適的品飲環境</desc>
+  <defs>
+    <linearGradient id="envBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F1"/>
+      <stop offset="100%" stop-color="#ECE3D4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="16" fill="url(#envBg)"/>
+
+  <!-- High Ceiling Window Grid -->
+  <g stroke="#D5C5AF" stroke-width="3" fill="#FFFDF8">
+    <rect x="40" y="30" width="160" height="230" rx="4"/>
+    <rect x="220" y="30" width="160" height="230" rx="4"/>
+    <rect x="400" y="30" width="160" height="230" rx="4"/>
+  </g>
+  <g stroke="#E8DEC9" stroke-width="1.5">
+    <line x1="40" y1="110" x2="200" y2="110"/>
+    <line x1="40" y1="180" x2="200" y2="180"/>
+    <line x1="220" y1="110" x2="380" y2="110"/>
+    <line x1="220" y1="180" x2="380" y2="180"/>
+    <line x1="400" y1="110" x2="560" y2="110"/>
+    <line x1="400" y1="180" x2="560" y2="180"/>
+  </g>
+
+  <!-- Outside Tree Greenery seen through windows -->
+  <path d="M 50 150 Q 80 80, 150 120 T 200 90 L 200 230 L 40 230 Z" fill="#E2ECE5" opacity="0.8"/>
+  <path d="M 230 140 Q 280 90, 340 130 T 380 110 L 380 230 L 220 230 Z" fill="#D5E4D9" opacity="0.85"/>
+  <path d="M 410 130 Q 480 70, 520 120 T 560 100 L 560 230 L 400 230 Z" fill="#E2ECE5" opacity="0.8"/>
+
+  <!-- Warm Wooden Floor -->
+  <polygon points="0,290 600,290 600,400 0,400" fill="#D3BEA2"/>
+  <line x1="0" y1="320" x2="600" y2="320" stroke="#BFAB8F" stroke-width="2"/>
+  <line x1="0" y1="355" x2="600" y2="355" stroke="#BFAB8F" stroke-width="2"/>
+
+  <!-- Long Solid Wood Cafe Table -->
+  <!-- Table Top -->
+  <polygon points="120,290 480,290 530,340 70,340" fill="#6B4423"/>
+  <polygon points="70,340 530,340 530,352 70,352" fill="#4A2E18"/>
+  <!-- Table Legs -->
+  <rect x="110" y="352" width="16" height="40" fill="#2E1C0C"/>
+  <rect x="474" y="352" width="16" height="40" fill="#2E1C0C"/>
+
+  <!-- Chairs / Stools -->
+  <!-- Left Chair -->
+  <path d="M 120 260 L 170 260 L 170 290 L 120 290 Z" fill="#58371E"/>
+  <line x1="130" y1="290" x2="125" y2="370" stroke="#2E1C0C" stroke-width="5"/>
+  <line x1="160" y1="290" x2="165" y2="370" stroke="#2E1C0C" stroke-width="5"/>
+  <!-- Right Chair -->
+  <path d="M 430 260 L 480 260 L 480 290 L 430 290 Z" fill="#58371E"/>
+  <line x1="440" y1="290" x2="435" y2="370" stroke="#2E1C0C" stroke-width="5"/>
+  <line x1="470" y1="290" x2="475" y2="370" stroke="#2E1C0C" stroke-width="5"/>
+
+  <!-- Books & Coffee on Table -->
+  <rect x="230" y="315" width="45" height="12" rx="2" fill="#FAF6EE" stroke="#3D2415" stroke-width="1.5"/>
+  <rect x="235" y="308" width="40" height="9" rx="2" fill="#1F392B"/>
+  <ellipse cx="320" cy="320" rx="14" ry="7" fill="#EAE0D0"/>
+  <rect x="314" y="306" width="12" height="12" rx="2" fill="#4A2E18"/>
+
+  <!-- Large Potted Plant in Corner -->
+  <path d="M 500 320 L 560 320 L 550 390 L 510 390 Z" fill="#1F392B"/>
+  <!-- Broad tropical leaves -->
+  <path d="M 530 320 Q 480 240, 450 210 Q 500 215, 530 320 Z" fill="#2A4B3A"/>
+  <path d="M 530 320 Q 540 210, 520 170 Q 565 190, 530 320 Z" fill="#1F392B"/>
+  <path d="M 530 320 Q 580 230, 600 200 Q 580 260, 530 320 Z" fill="#2A4B3A"/>
+</svg>

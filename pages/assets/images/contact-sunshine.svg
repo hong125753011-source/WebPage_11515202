@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 350" width="100%" height="100%" role="img" aria-labelledby="contactTitle contactDesc">
+  <title id="contactTitle">晴天咖啡 溫暖門市意象</title>
+  <desc id="contactDesc">靜謐木質門面、晴朗微光與迎客綠植，靜候每一位尋訪咖啡香的客人</desc>
+  <defs>
+    <linearGradient id="contactBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F1"/>
+      <stop offset="100%" stop-color="#EDE4D6"/>
+    </linearGradient>
+    <radialGradient id="doorLight" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#FAF1E0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#EDE4D6" stop-opacity="0.2"/>
+    </radialGradient>
+  </defs>
+  <rect width="500" height="350" rx="16" fill="url(#contactBg)"/>
+
+  <!-- Warm Light Arc -->
+  <path d="M 140 310 L 140 160 A 110 110 0 0 1 360 160 L 360 310 Z" fill="url(#doorLight)"/>
+  
+  <!-- Architectural Arch Door Frame -->
+  <path d="M 150 310 L 150 160 A 100 100 0 0 1 350 160 L 350 310" stroke="#4A2E18" stroke-width="4" fill="none"/>
+  <!-- Glass Window Panes -->
+  <path d="M 170 310 L 170 170 A 80 80 0 0 1 330 170 L 330 310" stroke="#C8B8A2" stroke-width="2" fill="#FFFDF9" opacity="0.6"/>
+  <line x1="250" y1="90" x2="250" y2="310" stroke="#C8B8A2" stroke-width="2"/>
+  <line x1="170" y1="210" x2="330" y2="210" stroke="#C8B8A2" stroke-width="2"/>
+
+  <!-- Cafe Entrance Sign (晴天咖啡) -->
+  <rect x="205" y="45" width="90" height="32" rx="4" fill="#2E1C0C"/>
+  <text x="250" y="66" fill="#FAF6EE" font-size="13" font-family="-apple-system, sans-serif" font-weight="600" text-anchor="middle" letter-spacing="2">晴天咖啡</text>
+  <line x1="250" y1="30" x2="250" y2="45" stroke="#4A2E18" stroke-width="2"/>
+
+  <!-- Potted Olive / Greenery on sides -->
+  <!-- Left Pot -->
+  <path d="M 100 260 L 125 260 L 120 310 L 105 310 Z" fill="#1F392B"/>
+  <path d="M 112 260 Q 90 200, 110 170" stroke="#1F392B" stroke-width="2.5" fill="none"/>
+  <path d="M 110 170 C 95 160, 105 150, 115 165 Z" fill="#2A4B3A"/>
+  <path d="M 102 205 C 85 200, 92 185, 106 195 Z" fill="#1F392B"/>
+  <path d="M 116 220 C 130 210, 135 225, 122 235 Z" fill="#2A4B3A"/>
+
+  <!-- Right Pot -->
+  <path d="M 375 260 L 400 260 L 395 310 L 380 310 Z" fill="#1F392B"/>
+  <path d="M 388 260 Q 410 200, 390 170" stroke="#1F392B" stroke-width="2.5" fill="none"/>
+  <path d="M 390 170 C 405 160, 395 150, 385 165 Z" fill="#2A4B3A"/>
+  <path d="M 398 205 C 415 200, 408 185, 394 195 Z" fill="#1F392B"/>
+  <path d="M 384 220 C 370 210, 365 225, 378 235 Z" fill="#2A4B3A"/>
+
+  <!-- Ground Stone Step -->
+  <rect x="120" y="310" width="260" height="15" rx="3" fill="#B5A48F"/>
+  <rect x="100" y="325" width="300" height="12" rx="2" fill="#9C8B77"/>
+</svg>

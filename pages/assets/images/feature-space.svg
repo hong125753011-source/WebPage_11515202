@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%" role="img" aria-labelledby="spaceTitle">
+  <title id="spaceTitle">自在空間</title>
+  <defs>
+    <linearGradient id="spaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F9F6F0"/>
+      <stop offset="100%" stop-color="#EFE6DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" rx="14" fill="url(#spaceBg)"/>
+
+  <!-- Window Frame in Background with soft sunlight -->
+  <rect x="70" y="45" width="120" height="150" rx="4" fill="#FAF6EE" stroke="#D5C5AF" stroke-width="2"/>
+  <line x1="130" y1="45" x2="130" y2="195" stroke="#D5C5AF" stroke-width="2"/>
+  <line x1="70" y1="110" x2="190" y2="110" stroke="#D5C5AF" stroke-width="2"/>
+
+  <!-- Sunlight ray coming through window -->
+  <polygon points="70,110 190,45 280,240 140,240" fill="#E8DEC9" opacity="0.45"/>
+
+  <!-- Pendant Lamp hanging down -->
+  <line x1="260" y1="0" x2="260" y2="90" stroke="#4A2E1B" stroke-width="2"/>
+  <path d="M 235 110 L 285 110 L 270 90 L 250 90 Z" fill="#2E1C0C"/>
+  <circle cx="260" cy="113" r="5" fill="#FCE1A0"/>
+
+  <!-- Cafe Table -->
+  <ellipse cx="230" cy="225" rx="90" ry="22" fill="#5C3B24"/>
+  <ellipse cx="230" cy="223" rx="86" ry="18" fill="#8C5C39"/>
+  <!-- Table Leg -->
+  <path d="M 226 235 L 226 280 L 234 280 L 234 235 Z" fill="#3D2415"/>
+  <ellipse cx="230" cy="280" rx="35" ry="8" fill="#3D2415"/>
+
+  <!-- Small Coffee Mug on Table -->
+  <rect x="220" y="200" width="22" height="20" rx="3" fill="#FAF6EE"/>
+  <path d="M 242 204 C 248 204, 248 214, 242 215" stroke="#FAF6EE" stroke-width="2.5" fill="none"/>
+  <!-- Steam from mug -->
+  <path d="M 228 194 C 225 185, 232 178, 229 170" stroke="#9E836A" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Potted Botanical Plant on left foreground -->
+  <path d="M 85 240 L 115 240 L 110 275 L 90 275 Z" fill="#1F392B"/>
+  <path d="M 100 240 Q 80 190, 60 175" stroke="#1F392B" stroke-width="2.5" fill="none"/>
+  <path d="M 100 240 Q 110 180, 105 160" stroke="#1F392B" stroke-width="2.5" fill="none"/>
+  <path d="M 100 240 Q 125 195, 140 180" stroke="#1F392B" stroke-width="2.5" fill="none"/>
+  <!-- Plant leaves -->
+  <path d="M 60 175 C 50 160, 65 155, 75 170 Z" fill="#2A4B3A"/>
+  <path d="M 105 160 C 95 140, 115 135, 120 155 Z" fill="#233E2E"/>
+  <path d="M 140 180 C 150 165, 160 180, 145 190 Z" fill="#2A4B3A"/>
+</svg>
